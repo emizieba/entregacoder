@@ -11,7 +11,7 @@
   color: white;
   position: fixed;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
 }
 .ancla_barra {
   color: white !important;
@@ -41,6 +41,7 @@ body {
   justify-content: center;
   align-content: center;
   width: 90vw;
+  padding-top: 100px;
 }
 
 .intro_titulo {
@@ -55,8 +56,9 @@ body {
 
 }
 .intro_video {
-  width: 45%;
-  height: 45%;
+  width: 50%;
+  height: 50%;
+  margin-left: 70px;
 
 }
 .proyecto {
@@ -131,6 +133,8 @@ footer {
   color: white;
   position: relative;
   display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .Intro_Terapias_Texto {
   position: absolute;
@@ -139,13 +143,13 @@ footer {
   margin-left: 5%;
   margin-bottom: 5%;
   background-color: rgba(37, 37, 37, 0.5);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .Intro_Terapias_Imagen {
   width: 600;
-  height: 500px;
-  margin-left: 240%;
+  height: 400px;
+  margin-left: 280%;
   margin-top: 70px;
 }
 
@@ -192,10 +196,11 @@ footer {
 }
 .evaluaciones_menu_titulo {
   margin-left: 15%;
-  margin-top: -10%;
+  margin-top: 10%;
   font-size: 3.5rem;
 }
 .menu_evaluaciones_nav {
+ 
   text-decoration: none;
   list-style: none;
   justify-content: center;
@@ -209,9 +214,11 @@ footer {
   width: 75%;
   height: 70%;
   margin-left: 15%;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto, auto, auto;
+  grid-template-rows: auto, auto;
   justify-content: space-around;
-  flex-wrap: wrap;
+ 
   font-size: 2.5rem;
 }
 .evaluaciones_menu_nav_lista_link_psicodiagnostico {
