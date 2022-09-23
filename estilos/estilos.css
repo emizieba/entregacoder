@@ -4,15 +4,6 @@
   font-family: "Preahvihear", sans-serif;
 }
 
-.header_barra_nav_titulo {
-  color: whitesmoke;
-  font-size: 2rem;
-  font-style: italic;
-  display: flex;
-  padding-right: 210px;
-  margin-left: 10px;
-}
-
 .barra_nav {
   display: flex;
   justify-content: end;
@@ -27,22 +18,6 @@
   font-size: 1.5rem;
 }
 .ancla_barra:hover {
-  text-decoration: underline;
-}
-.header_barra_nav_link {
-  color: red;
-  font-size: 1.7rem;
-  text-decoration: none;
-  padding-left: 30px;
-  margin-inline-end: 30px;
-}
-.header_barra_nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-}
-
-.header_barra_nav_link:hover {
   text-decoration: underline;
 }
 
@@ -76,14 +51,14 @@ body {
   width: 40%;
   position: absolute;
   margin-left: 65px;
-  margin-top: 80px;
+  margin-top: 90px;
   border: 25px;
 }
 .intro_video {
   width: 45%;
   height: 45%;
   margin-left: 700px;
-  margin-top: 75px;
+  margin-top: 90px;
   margin-right: 80px;
 }
 .proyecto {
