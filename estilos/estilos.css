@@ -12,17 +12,25 @@
   padding-right: 210px;
   margin-left: 10px;
 }
-.header_barra_nav {
+
+.barra_nav {
   display: flex;
   justify-content: end;
   background-color: rgb(29, 29, 65);
+  color: white;
   position: fixed;
   z-index: 1;
   width: 100%;
 }
-
+.ancla_barra {
+  color: white !important;
+  font-size: 1.5rem;
+}
+.ancla_barra:hover {
+  text-decoration: underline;
+}
 .header_barra_nav_link {
-  color: whitesmoke;
+  color: red;
   font-size: 1.7rem;
   text-decoration: none;
   padding-left: 30px;

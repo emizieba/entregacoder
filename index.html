@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ESMI</title>
-    <link rel="stylesheet" href="./estilos/estilos.css" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- mis estilos     -->
+<link rel="stylesheet" href="./estilos/estilos.css" />
     <link rel="icon" href="./img/icono esmi.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,33 +16,32 @@
   </head>
   <header class="header">
     <!-- inicio de  barra de navegacion -->
-    <div>
-      <nav class="header_barra_nav">
-        <p class="header_barra_nav_titulo">esmi</p>
-        <ul>
-          <li>
-            <a href="./index.html" class="header_barra_nav_link">Home</a>
-          </li>
-          <li>
-            <a href="./terapias.html" class="header_barra_nav_link"
-              >Terapias</a
-            >
-          </li>
-          <li>
-            <a href="./evaluaciones.html" class="header_barra_nav_link"
-              >Evaluaciones</a
-            >
-          </li>
-          <li>
-            <a href="./capacitaciones.html" class="header_barra_nav_link"
-              >Capacitaciones</a
-            >
-          </li>
-          <li>
-            <a href="./contacto.html" class="header_barra_nav_link">Contacto</a>
-          </li>
-        </ul>
-      </nav>
+    <nav class="barra_nav navbar navbar-expand-lg ">
+      <div class=" container-fluid">
+        <a class="ancla_barra navbar-brand" href="#">ESMI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end p-1" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ">
+            <li class="nav-item ">
+              <a class="ancla_barra nav-link active " aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="ancla_barra nav-link active" aria-current="page" href="./terapias.html">Terapias</a>
+            </li>
+                <li class="nav-item">
+              <a class="ancla_barra nav-link active" aria-current="page" href="./evaluaciones.html">Evaluaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="ancla_barra nav-link active" aria-current="page" href="./capacitaciones.html">Capacitaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="ancla_barra nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+            </li>
+        </div>
+      </div>
+    </nav>
       <!-- fin de barra de navegacion -->
     </div>
   </header>
@@ -110,5 +112,8 @@
 </div>
 </footer>
 <!-- fin footer  -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
   </body>
 </html>
