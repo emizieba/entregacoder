@@ -1,0 +1,423 @@
+* {
+  margin: 0ch;
+  padding: 0%;
+  font-family: "Preahvihear", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+.barra_nav {
+  justify-content: end;
+  background-color: #1d1d41;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100vw; }
+
+.ancla_barra {
+  color: white !important;
+  font-size: 1.5rem; }
+
+.ancla_barra:hover {
+  text-decoration: underline; }
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw; }
+
+.intro {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  padding-top: 100px; }
+
+.intro_text {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw; }
+
+.intro_video {
+  width: 100vw;
+  height: 50vh; }
+
+.proyecto {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 25px; }
+
+.titulo_equipo {
+  margin: 10px; }
+
+.equipo {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  justify-content: space-around; }
+
+.equipo_tarjetas {
+  width: 150px;
+  height: 180px;
+  align-items: center;
+  padding: 5px; }
+
+.fotos_equipo {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 50px; }
+
+.fotos_equipo :hover {
+  transform: scale(1.1);
+  transition: 0.5s; }
+
+footer {
+  background-color: #1d1d41;
+  width: 100vw;
+  height: 100vh;
+  display: grid; }
+
+.redes_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between; }
+
+.iconos_redes {
+  width: 70px;
+  height: 70px; }
+
+.texto_footer {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 400px; }
+
+.Intro_Terapias {
+  color: white;
+  padding-top: 55px;
+  padding-bottom: 25px; }
+
+.Intro_Terapias_Texto {
+  width: 100vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(37, 37, 37, 0.5);
+  font-size: 1.2rem; }
+
+.Intro_Terapias_Imagen {
+  width: 100vw;
+  height: 450px; }
+
+.talleres {
+  width: 100vw;
+  margin-bottom: 5%; }
+
+.talleres_texto {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(37, 37, 37, 0.5); }
+
+.talleres_imagen {
+  width: 100vw;
+  height: 400px; }
+
+.talleres_texto_parrafo2 {
+  color: white;
+  font-size: 1.5rem;
+  width: auto;
+  background-color: rgba(37, 37, 37, 0.5);
+  padding: 5px; }
+
+.evaluaciones {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.evaluaciones_menu_titulo {
+  font-size: 2.5rem;
+  padding: 10px;
+  background-color: rgba(37, 37, 37, 0.5); }
+
+.menu_evaluaciones_nav {
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  color: white; }
+
+.evaluaciones_menu_nav_lista {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: space-around;
+  gap: 15px;
+  font-size: 2rem; }
+
+.evaluaciones_menu_nav_lista_link_psicodiagnostico {
+  background-color: rgba(252, 133, 117, 0.5);
+  text-decoration: none;
+  color: white; }
+
+.evaluaciones_menu_nav_lista_link_neurocognitivo {
+  background-color: rgba(170, 248, 106, 0.5);
+  text-decoration: none;
+  color: white; }
+
+.evaluaciones_menu_nav_lista_link_psicopedagogia {
+  background-color: rgba(62, 204, 145, 0.5);
+  text-decoration: none;
+  color: white; }
+
+.evaluaciones_menu_nav_lista_link_fonoaudiologia {
+  background-color: rgba(106, 203, 248, 0.5);
+  text-decoration: none;
+  color: white; }
+
+.evaluaciones_menu_nav_lista_link_ados {
+  background-color: rgba(208, 106, 248, 0.5);
+  text-decoration: none;
+  color: white; }
+
+.evaluaciones_menu_nav_lista_link_sensorial {
+  background-color: rgba(248, 106, 189, 0.5);
+  text-decoration: none;
+  color: white; }
+
+.explicacion_evaluaciones_psicodiagnostico {
+  background-color: rgba(252, 133, 117, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw; }
+
+.explicacion_evaluaciones_neurocognitivo {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(170, 248, 106, 0.5); }
+
+.explicacion_evaluaciones_psicopedagogica {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(62, 204, 145, 0.5); }
+
+.explicacion_evaluaciones_fonoaudiologia {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(106, 203, 248, 0.5); }
+
+.explicacion_evaluaciones_ados {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(208, 106, 248, 0.5); }
+
+.explicacion_evaluaciones_sensorial {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(248, 106, 189, 0.5); }
+
+.capacitaciones_intro {
+  color: white;
+  width: 100vw;
+  margin-bottom: 5%;
+  padding-top: 15%; }
+
+.capacitaciones_intro_areaTexto {
+  margin-top: 5%;
+  background-color: rgba(37, 37, 37, 0.5);
+  width: 100vw;
+  font-size: 1.5rem; }
+
+.novedades {
+  color: white;
+  width: 100vw; }
+
+.novedades_area_texto {
+  background-color: rgba(37, 37, 37, 0.5);
+  width: 100vw;
+  font-size: 1.5rem; }
+
+.proximos_titulo {
+  font-size: 2.5rem;
+  align-self: center;
+  padding: 5%; }
+
+.forumlario_contacto {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 50px; }
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3rem;
+    color: white; }
+  .forumlario_contacto {
+    margin-left: 15rem; }
+  .intro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    padding-top: 100px; }
+  .intro_text {
+    width: 40%; }
+  .intro_video {
+    width: 50%;
+    height: 50%;
+    margin-left: 70px; }
+  .proyecto {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .equipo {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .equipo_tarjetas {
+    width: 180px;
+    height: 200px; }
+  .fotos_equipo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; }
+  footer {
+    height: auto; }
+  .iconos_redes:hover {
+    background-color: rgba(245, 240, 240, 0.5); }
+  .texto_footer {
+    align-self: flex-end;
+    display: flex; }
+  .link_contacto_footer {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    align-self: flex-end;
+    display: flex;
+    position: absolute;
+    margin-left: 950px; }
+  .forumlario_contacto {
+    width: fit-content;
+    justify-content: center;
+    margin-left: 500px; }
+  .Intro_Terapias {
+    position: relative;
+    display: flex;
+    padding-top: 25px; }
+  .Intro_Terapias_Texto {
+    position: absolute;
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 1.3rem; }
+  .Intro_Terapias_Imagen {
+    width: 600;
+    height: 400px;
+    margin-left: 280%;
+    margin-top: 70px; }
+  .talleres {
+    display: flex; }
+  .talleres_texto {
+    width: 40%;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 50px;
+    border: 25px; }
+  .talleres_texto_parrafo2 {
+    color: white;
+    font-size: 1.5rem;
+    width: 90%;
+    position: absolute;
+    margin-left: 130%;
+    margin-top: -65%;
+    border: 25px;
+    background-color: rgba(37, 37, 37, 0.5); }
+  .talleres_imagen {
+    width: 100%;
+    height: 85%; }
+  .evaluaciones_menu_titulo {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 3.5rem;
+    padding: 15px; }
+  .evaluaciones_menu_nav_lista {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    gap: 15px;
+    font-size: 2.5rem; }
+  .explicacion_evaluaciones_psicodiagnostico {
+    width: 80%;
+    margin: 5%; }
+  .explicacion_evaluaciones_neurocognitivo {
+    width: 80%;
+    margin: 5%; }
+  .explicacion_evaluaciones_psicopedagogica {
+    width: 80%;
+    margin: 5%; }
+  .explicacion_evaluaciones_fonoaudiologia {
+    width: 80%;
+    margin: 5%; }
+  .explicacion_evaluaciones_ados {
+    width: 80%;
+    margin: 5%; }
+  .explicacion_evaluaciones_sensorial {
+    width: 80%;
+    margin: 5%; }
+  .capacitaciones_intro {
+    display: flex;
+    margin-bottom: 5%;
+    padding-top: 5%; }
+  .capacitaciones_intro_areaTexto {
+    width: 80%;
+    margin-left: 10%; }
+  .novedades_area_texto {
+    margin: 5%;
+    width: 80%;
+    margin-left: 10%; }
+  .proximos_titulo {
+    font-size: 2.5rem;
+    margin-left: 25%;
+    padding: 5%; }
+  .proximos {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center; }
+  .proximos_cards {
+    height: 400px; }
+  .proximos_cards :hover {
+    transform: scale(1.2); }
+  .forumlario_contacto {
+    height: 100vh;
+    width: 100px;
+    padding: 15%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto; } }
