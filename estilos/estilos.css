@@ -274,9 +274,10 @@ footer {
 .forumlario_contacto {
   height: 100vh;
   width: 100vw;
-  padding-top: 25%;
+  padding-top: 20%;
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 50px;
 }
 @media (min-width: 992px) {
   h1 {
