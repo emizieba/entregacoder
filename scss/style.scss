@@ -8,7 +8,9 @@
 @import "./pages/contacto";
 @import "./pages/capacitaciones";
 @import "./pages/evaluaciones";
-@import "./pages/terapias" body {
+@import "./pages/terapias";
+
+body {
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
