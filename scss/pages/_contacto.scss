@@ -1,0 +1,21 @@
+.forumlario_contacto {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 25%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 992px) {
+  .forumlario_contacto {
+
+    justify-content: center;
+    margin-left: 500px;
+    margin-bottom: 200px;
+    height: 100vh;
+    width: 100px;
+    padding: 15%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}

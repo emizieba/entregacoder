@@ -1,0 +1,111 @@
+
+.intro {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  padding-top: 100px;
+  &_text {
+    background-color: rgba(37, 37, 37, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    width: 100vw;
+  }
+  &_video {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
+.proyecto {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+.equipo {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  justify-content: space-around;
+  &_tarjetas {
+    width: 150px;
+    height: 180px;
+    align-items: center;
+  }
+}
+
+.fotos_equipo {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.fotos_equipo :hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+footer {
+  background-color: rgb(29, 29, 65);
+  width: 100vw;
+  height: 150px;
+  display: grid;
+}
+.redes_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between;
+}
+.iconos_redes {
+  width: 70px;
+  height: 70px;
+}
+.texto_footer {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 992px) {
+    .intro {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-content: center;
+      width: 100vw;
+      padding-top: 100px;
+      &_text {
+        width: 40%;
+      }
+      &_video {
+        width: 50%;
+        height: 50%;
+        margin-left: 70px;
+      }
+    }
+  
+    .proyecto {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  
+    .equipo {
+      margin-left: 30px;
+      margin-right: 30px;
+      &_tarjetas {
+        width: 180px;
+        height: 200px;
+      }
+    }
+    .fotos_equipo {
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+  }
+  

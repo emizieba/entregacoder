@@ -1,0 +1,84 @@
+.Intro_Terapias {
+  color: white;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  &_Texto {
+    width: 100vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(37, 37, 37, 0.5);
+    font-size: 1.2rem;
+  }
+  &_Imagen {
+    width: 100vw;
+    height: 450px;
+  }
+}
+
+.talleres {
+  width: 100vw;
+  margin-bottom: 5%;
+  &_texto {
+    color: white;
+    font-size: 1.5rem;
+    width: 100vw;
+    background-color: rgba(37, 37, 37, 0.5);
+  }
+  &_imagen {
+    width: 100vw;
+    height: 400px;
+  }
+  &_texto_parrafo2 {
+    color: white;
+    font-size: 1.5rem;
+    width: auto;
+    background-color: rgba(37, 37, 37, 0.5);
+    padding: 5px;
+  }
+}
+@media (min-width: 992px) {
+    .Intro_Terapias {
+      position: relative;
+      display: flex;
+      padding-top: 25px;
+      &_Texto {
+        position: absolute;
+        width: 45%;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        font-size: 1.3rem;
+      }
+      &_Imagen {
+        width: 600;
+        height: 400px;
+        margin-left: 280%;
+        margin-top: 70px;
+      }
+    }
+  
+    .talleres {
+      display: flex;
+      &_texto {
+        width: 40%;
+        position: absolute;
+        margin-left: 65px;
+        margin-top: 50px;
+        border: 25px;
+        &_parrafo2 {
+          color: white;
+          font-size: 1.5rem;
+          width: 90%;
+          position: absolute;
+          margin-left: 130%;
+          margin-top: -65%;
+          border: 25px;
+          background-color: rgba(37, 37, 37, 0.5);
+        }
+      }
+      &_imagen {
+        width: 100%;
+        height: 85%;
+      }
+    }
+  }

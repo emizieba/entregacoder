@@ -1,0 +1,149 @@
+
+.evaluaciones {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  &_menu_titulo {
+    font-size: 2.5rem;
+    padding: 10px;
+    background-color: rgba(37, 37, 37, 0.5);
+  }
+  &_menu_nav_lista {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    gap: 15px;
+    font-size: 2rem;
+    &_link_psicodiagnostico {
+      background-color: rgba(252, 133, 117, 0.5);
+      text-decoration: none;
+      color: white;
+    }
+      &_link_neurocognitivo {
+        background-color: rgba(170, 248, 106, 0.5);
+        text-decoration: none;
+        color: white;
+      }
+      &_link_psicopedagogia {
+        background-color: rgba(62, 204, 145, 0.5);
+        text-decoration: none;
+        color: white;
+      }
+      &_link_ados {
+        background-color: rgba(208, 106, 248, 0.5);
+        text-decoration: none;
+        color: white;
+      }
+      &_link_fonoaudiologia {
+        background-color: rgba(106, 203, 248, 0.5);
+        text-decoration: none;
+        color: white;
+      }
+      &_link_sensorial {
+        background-color: rgba(248, 106, 189, 0.5);
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+
+.menu_evaluaciones_nav {
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  color: white;
+}
+
+.explicacion_evaluaciones_psicodiagnostico {
+  background-color: rgba(252, 133, 117, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+}
+
+.explicacion_evaluaciones_neurocognitivo {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(170, 248, 106, 0.5);
+}
+.explicacion_evaluaciones_psicopedagogica {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(62, 204, 145, 0.5);
+}
+.explicacion_evaluaciones_fonoaudiologia {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(106, 203, 248, 0.5);
+}
+.explicacion_evaluaciones_ados {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(208, 106, 248, 0.5);
+}
+.explicacion_evaluaciones_sensorial {
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: rgba(248, 106, 189, 0.5);
+}
+@media (min-width: 992px) {
+
+    .evaluaciones_menu_titulo {
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 3.5rem;
+        padding: 15px;
+      }
+    
+      .evaluaciones_menu_nav_lista {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-around;
+        gap: 15px;
+        font-size: 2.5rem;
+      }
+    
+      .explicacion_evaluaciones_psicodiagnostico {
+        width: 80%;
+        margin: 5%;
+      }
+    
+      .explicacion_evaluaciones_neurocognitivo {
+        width: 80%;
+        margin: 5%;
+      }
+      .explicacion_evaluaciones_psicopedagogica {
+        width: 80%;
+        margin: 5%;
+      }
+      .explicacion_evaluaciones_fonoaudiologia {
+        width: 80%;
+        margin: 5%;
+      }
+      .explicacion_evaluaciones_ados {
+        width: 80%;
+        margin: 5%;
+      }
+      .explicacion_evaluaciones_sensorial {
+        width: 80%;
+        margin: 5%;
+      }
+
+}
