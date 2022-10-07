@@ -8389,6 +8389,20 @@ body {
   height: 100vh;
   width: 100vw; }
 
+.barra_nav {
+  justify-content: end;
+  background-color: #1d1d41;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100vw; }
+
+.ancla_barra {
+  color: white !important;
+  font-size: 1.5rem; }
+  .ancla_barra:hover {
+    text-decoration: underline; }
+
 .intro {
   display: grid;
   grid-template-columns: auto;
@@ -8411,6 +8425,11 @@ body {
   font-size: 1.5rem;
   margin-top: 25px; }
 
+.equipo {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem; }
+
 .titulo .equipo {
   background-color: rgba(37, 37, 37, 0.5);
   color: white;
@@ -8431,20 +8450,28 @@ body {
   justify-content: center;
   justify-content: space-around;
   padding-bottom: 50px; }
-  .fotos_equipo:hover {
+  .fotos_equipo_anto:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+  .fotos_equipo_carla:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+  .fotos_equipo_daina:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+  .fotos_equipo_emi:hover {
     transform: scale(1.1);
     transition: 0.5s; }
 
 footer {
   background-color: #1d1d41;
   width: 100vw;
-  height: auto;
+  height: 100px !important;
   display: grid; }
 
 .redes_footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-content: space-between; }
+  grid-template-columns: 1fr 1fr 1fr; }
 
 .iconos_redes {
   width: 70px;
@@ -8453,8 +8480,7 @@ footer {
 .texto_footer {
   font-size: 1rem;
   text-decoration: none;
-  color: white;
-  padding-bottom: 400px; }
+  color: white; }
 
 .Intro_Terapias {
   color: white;
@@ -8499,10 +8525,19 @@ footer {
   justify-content: center;
   align-content: center; }
 
-.evaluaciones_menu_titulo {
-  font-size: 2.5rem;
-  padding: 10px;
-  background-color: rgba(37, 37, 37, 0.5); }
+.evaluaciones {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  .evaluaciones__menu_titulo {
+    font-size: 2.5rem;
+    background-color: rgba(37, 37, 37, 0.5); }
 
 .menu_evaluaciones_nav {
   text-decoration: none;

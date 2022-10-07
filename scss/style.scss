@@ -19,6 +19,22 @@ body {
   width: 100vw;
 }
 
+.barra_nav {
+  justify-content: end;
+  background-color: rgb(29, 29, 65);
+  color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+}
+.ancla_barra {
+  color: white !important;
+  font-size: 1.5rem;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .intro {
   display: grid;
   grid-template-columns: auto;
@@ -44,6 +60,11 @@ body {
   font-size: 1.5rem;
   margin-top: 25px;
 }
+.equipo {
+  background-color: rgba(37, 37, 37, 0.5);
+  color: white;
+  font-size: 1.5rem;
+}
 .titulo .equipo {
   background-color: rgba(37, 37, 37, 0.5);
   color: white;
@@ -67,7 +88,19 @@ body {
   justify-content: center;
   justify-content: space-around;
   padding-bottom: 50px;
-  &:hover {
+  &_anto:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  &_carla:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  &_daina:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  &_emi:hover {
     transform: scale(1.1);
     transition: 0.5s;
   }
@@ -76,13 +109,12 @@ body {
 footer {
   background-color: rgb(29, 29, 65);
   width: 100vw;
-  height: auto;
+  height: 100px !important;
   display: grid;
 }
 .redes_footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-content: space-between;
 }
 .iconos_redes {
   width: 70px;
@@ -92,7 +124,6 @@ footer {
   font-size: 1rem;
   text-decoration: none;
   color: white;
-  padding-bottom: 400px;
 }
 .Intro_Terapias {
   color: white;
@@ -144,11 +175,22 @@ footer {
   justify-content: center;
   align-content: center;
 }
-.evaluaciones_menu_titulo {
-  font-size: 2.5rem;
-  padding: 10px;
-  background-color: rgba(37, 37, 37, 0.5);
+.evaluaciones {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  &__menu_titulo {
+    font-size: 2.5rem;
+    background-color: rgba(37, 37, 37, 0.5);
+  }
 }
+
 .menu_evaluaciones_nav {
   text-decoration: none;
   list-style: none;
@@ -296,7 +338,7 @@ footer {
     }
   }
 
-.proyecto {
+  .proyecto {
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -309,7 +351,7 @@ footer {
       height: 200px;
     }
   }
- 
+
   .fotos_equipo {
     display: flex;
     justify-content: center;
@@ -354,13 +396,12 @@ footer {
       margin-bottom: 5%;
       font-size: 1.3rem;
     }
-  &_Imagen {
-    width: 600;
-    height: 400px;
-    margin-left: 280%;
-    margin-top: 70px;
-  }
-
+    &_Imagen {
+      width: 600;
+      height: 400px;
+      margin-left: 280%;
+      margin-top: 70px;
+    }
   }
   .talleres {
     display: flex;
@@ -380,11 +421,11 @@ footer {
         border: 25px;
         background-color: rgba(37, 37, 37, 0.5);
       }
-  }
-  &_imagen {
-    width: 100%;
-    height: 85%;
-  }
+    }
+    &_imagen {
+      width: 100%;
+      height: 85%;
+    }
   }
 
   .evaluaciones_menu_titulo {
@@ -437,7 +478,6 @@ footer {
       margin-left: 10%;
     }
   }
-
 
   .novedades_area_texto {
     margin: 5%;
