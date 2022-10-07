@@ -8751,15 +8751,6 @@ footer {
       width: 100%;
       height: 85%; } }
 
-* {
-  margin: 0ch;
-  padding: 0%;
-  font-family: "Preahvihear", sans-serif; }
-
-a {
-  text-decoration: none;
-  color: white; }
-
 .barra_nav {
   justify-content: end;
   color: white;
@@ -8772,14 +8763,6 @@ a {
   font-size: 1.5rem; }
   .ancla_barra:hover {
     text-decoration: underline; }
-
-body {
-  background-image: url(../img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100vw; }
 
 @media (min-width: 992px) {
   footer {
@@ -8798,3 +8781,11 @@ body {
     display: flex;
     position: absolute;
     margin-left: 950px; } }
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw; }

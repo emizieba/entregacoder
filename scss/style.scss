@@ -10,64 +10,6 @@ $primary:rgb(29, 29, 65);
 @import "./pages/capacitaciones";
 @import "./pages/evaluaciones";
 @import "./pages/terapias";
-
-* {
-  margin: 0ch;
-  padding: 0%;
-  font-family: "Preahvihear", sans-serif;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.barra_nav {
-  justify-content: end;
-  color: white;
-  position: fixed;
-  z-index: 1;
-  width: 100vw;
-}
-.ancla_barra {
-  color: white !important;
-  font-size: 1.5rem;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-body {
-  background-image: url(../img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100vw;
-}
-
-@media (min-width: 992px) {
- 
-  footer {
-    height: 150px !important;
-    width: 100vw;
-  }
-
-  .iconos_redes:hover {
-    background-color: rgba(245, 240, 240, 0.5);
-  }
-  .texto_footer {
-    align-self: flex-end;
-    display: flex;
-  }
-  .link_contacto_footer {
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-    align-self: flex-end;
-    display: flex;
-    position: absolute;
-    margin-left: 950px;
-  }
-
-
-}
+@import "./components/barranav";
+@import "./components/footer";
+@import "./components/body";

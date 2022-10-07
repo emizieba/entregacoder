@@ -1,0 +1,16 @@
+
+.barra_nav {
+    justify-content: end;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+  }
+  .ancla_barra {
+    color: white !important;
+    font-size: 1.5rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  

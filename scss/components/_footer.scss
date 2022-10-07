@@ -1,0 +1,26 @@
+
+@media (min-width: 992px) {
+ 
+    footer {
+      height: 150px !important;
+      width: 100vw;
+    }
+  
+    .iconos_redes:hover {
+      background-color: rgba(245, 240, 240, 0.5);
+    }
+    .texto_footer {
+      align-self: flex-end;
+      display: flex;
+    }
+    .link_contacto_footer {
+      font-size: 1rem;
+      text-decoration: none;
+      color: white;
+      align-self: flex-end;
+      display: flex;
+      position: absolute;
+      margin-left: 950px;
+    }
+  }
+  
