@@ -1,4 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
+$primary:rgb(29, 29, 65);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -22,7 +23,6 @@ a {
 
 .barra_nav {
   justify-content: end;
-  background-color: rgb(29, 29, 65);
   color: white;
   position: fixed;
   z-index: 1;
