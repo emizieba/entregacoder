@@ -20,16 +20,19 @@ footer {
     color: white;
   }
   
+  .iconos_redes:hover {
+    background-color: rgba(245, 240, 240, 0.5);
+    transition: 5ms;
+  }
+  
 @media (min-width: 992px) {
  
     footer {
       height: 150px !important;
       width: 100vw;
+      
     }
   
-    .iconos_redes:hover {
-      background-color: rgba(245, 240, 240, 0.5);
-    }
     .texto_footer {
       align-self: flex-end;
       display: flex;

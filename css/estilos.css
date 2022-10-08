@@ -8407,13 +8407,26 @@ textarea.form-control-lg {
   margin-left: 15px; }
 
 .equipo {
-  background-color: rgba(37, 37, 37, 0.5);
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 15px;
-  justify-content: space-around;
-  width: 90vw;
-  margin-left: 15px; }
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  width: auto; }
+  .equipo_text {
+    background-color: rgba(37, 37, 37, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    justify-content: space-around;
+    width: 90vw;
+    margin-left: 15px; }
+  .equipo_titulo {
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(37, 37, 37, 0.5);
+    justify-self: center;
+    text-decoration: underline;
+    padding: 5px; }
   .equipo_tarjetas {
     width: 150px;
     height: 180px;
@@ -8424,31 +8437,12 @@ textarea.form-control-lg {
   grid-template-columns: auto auto;
   justify-content: center;
   justify-content: space-around;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-color: rgba(37, 37, 37, 0.5); }
 
 .fotos_equipo :hover {
   transform: scale(1.1);
   transition: 0.5s; }
-
-footer {
-  background-color: #1d1d41;
-  width: 100vw;
-  height: 150px;
-  display: grid; }
-
-.redes_footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-content: space-between; }
-
-.iconos_redes {
-  width: 70px;
-  height: 70px; }
-
-.texto_footer {
-  font-size: 1rem;
-  text-decoration: none;
-  color: white; }
 
 @media (min-width: 992px) {
   .intro {
@@ -8574,30 +8568,20 @@ footer {
     justify-content: space-around;
     gap: 15px;
     font-size: 2rem; }
-    .evaluaciones_menu_nav_lista_link_psicodiagnostico {
+    .evaluaciones_menu_nav_lista_link_psicodiagnostico, .evaluaciones_menu_nav_lista_link_neurocognitivo, .evaluaciones_menu_nav_lista_link_psicopedagogia, .evaluaciones_menu_nav_lista_link_ados, .evaluaciones_menu_nav_lista_link_fonoaudiologia, .evaluaciones_menu_nav_lista_link_sensorial {
       background-color: rgba(252, 133, 117, 0.5);
       text-decoration: none;
       color: white; }
     .evaluaciones_menu_nav_lista_link_neurocognitivo {
-      background-color: rgba(170, 248, 106, 0.5);
-      text-decoration: none;
-      color: white; }
+      background-color: rgba(170, 248, 106, 0.5); }
     .evaluaciones_menu_nav_lista_link_psicopedagogia {
-      background-color: rgba(62, 204, 145, 0.5);
-      text-decoration: none;
-      color: white; }
+      background-color: rgba(62, 204, 145, 0.5); }
     .evaluaciones_menu_nav_lista_link_ados {
-      background-color: rgba(208, 106, 248, 0.5);
-      text-decoration: none;
-      color: white; }
+      background-color: rgba(208, 106, 248, 0.5); }
     .evaluaciones_menu_nav_lista_link_fonoaudiologia {
-      background-color: rgba(106, 203, 248, 0.5);
-      text-decoration: none;
-      color: white; }
+      background-color: rgba(106, 203, 248, 0.5); }
     .evaluaciones_menu_nav_lista_link_sensorial {
-      background-color: rgba(248, 106, 189, 0.5);
-      text-decoration: none;
-      color: white; }
+      background-color: rgba(248, 106, 189, 0.5); }
 
 .menu_evaluaciones_nav {
   text-decoration: none;
@@ -8764,12 +8748,34 @@ footer {
   .ancla_barra:hover {
     text-decoration: underline; }
 
+footer {
+  background-color: #1d1d41;
+  width: 100vw;
+  height: 150px;
+  display: grid; }
+
+.redes_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between; }
+
+.iconos_redes {
+  width: 70px;
+  height: 70px; }
+
+.texto_footer {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white; }
+
+.iconos_redes:hover {
+  background-color: rgba(245, 240, 240, 0.5);
+  transition: 5ms; }
+
 @media (min-width: 992px) {
   footer {
     height: 150px !important;
     width: 100vw; }
-  .iconos_redes:hover {
-    background-color: rgba(245, 240, 240, 0.5); }
   .texto_footer {
     align-self: flex-end;
     display: flex; }
