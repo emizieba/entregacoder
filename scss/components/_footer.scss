@@ -1,50 +1,61 @@
-
 footer {
-    background-color: rgb(29, 29, 65);
+  background-color: rgb(29, 29, 65);
+  width: 100vw;
+  height: 150px;
+  display: grid;
+}
+.redes_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between;
+}
+
+.texto_footer {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.iconos_redes {
+  &_face {
+    @include iconosredes;
+  }
+  &_insta {
+    @include iconosredes;
+  }
+  &_linke {
+    @include iconosredes;
+  }
+  &_face:hover {
+    background-color: map-get($redes, "face");
+    transition: 5ms;
+  }
+  &_insta:hover {
+    background-color: map-get($redes, "insta");
+    transition: 5ms;
+  }
+  &_linke:hover {
+    background-color: map-get($redes, "linke");
+    transition: 5ms;
+  }
+}
+@media (min-width: 992px) {
+  footer {
+    height: 150px !important;
     width: 100vw;
-    height: 150px;
-    display: grid;
   }
-  .redes_footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-content: space-between;
-  }
-  .iconos_redes {
-    width: 70px;
-    height: 70px;
-  }
+
   .texto_footer {
+    align-self: flex-end;
+    display: flex;
+  }
+  .link_contacto_footer {
     font-size: 1rem;
     text-decoration: none;
     color: white;
+    align-self: flex-end;
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
   }
-  
-  .iconos_redes:hover {
-    background-color: rgba(245, 240, 240, 0.5);
-    transition: 5ms;
-  }
-  
-@media (min-width: 992px) {
- 
-    footer {
-      height: 150px !important;
-      width: 100vw;
-      
-    }
-  
-    .texto_footer {
-      align-self: flex-end;
-      display: flex;
-    }
-    .link_contacto_footer {
-      font-size: 1rem;
-      text-decoration: none;
-      color: white;
-      align-self: flex-end;
-      display: flex;
-      position: absolute;
-      margin-left: 950px;
-    }
-  }
-  
+}

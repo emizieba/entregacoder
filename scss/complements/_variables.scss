@@ -13,3 +13,13 @@ $color-secundary:grey;
   width: 80%;
   margin: 5%;
 }
+@mixin iconosredes { width: 70px;
+  height: 70px;
+  
+}
+// mapa colores redes sociales//
+$redes :(
+  insta:  rgb(231, 58, 247),
+  face : rgb(14, 14, 109) ,
+  linke: rgb(41, 105, 179),
+)
